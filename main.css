@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    font-family: Corbel Light;
+    font-size: 15.5pt;
+}
+
+header{
+    opacity: 100%;
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    left: 0px;
+    height: 105px;;
+}
+
+.logo{
+    position:absolute;
+    right:0;
+    top:0;
+    height: 80px;
+}
+
+.imgtitle{
+    background-image: linear-gradient(to right,rgba(1, 104, 164, 0.638), rgba(152, 199, 227, 0)), url(https://yamburg-dobycha.gazprom.ru/d/story/6a/106/3-ukpg-1v.jpg);
+    background-color:rgb(0,122,194);
+    top: 0px;
+    right:0px;
+    left: 0px;
+    position: absolute;
+    margin-top: 0px;
+    overflow: hide;
+    z-index: -1;
+    height: 475px;
+}
+
+.okomp{
+    font-family: Yu Gothic UI Light;
+    color:rgb(255, 255, 255);
+    font-weight: lighter;
+    position: relative;
+    margin-top: 200px;
+    margin-left: 175px;
+    font-size: 45pt;
+}
