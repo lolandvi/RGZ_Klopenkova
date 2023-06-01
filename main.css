@@ -140,3 +140,9 @@ a.link {
     margin-left: 175px;
     font-size: 45pt;
 }
+
+.tablemoney{
+    text-align: center;
+    width: 50%;
+    border-collapse: collapse;
+}
