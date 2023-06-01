@@ -5,6 +5,19 @@ body{
     font-size: 15.5pt;
 }
 
+footer{
+    height: 100px;
+    border-top: 1px solid rgba(0, 0, 0, 0.138);
+    font-family: Corbel Light;
+    font-size: 11pt;
+    margin-top: 50px;
+    padding-top: 50px;
+    top:0px;
+    right: 0px;
+    left: 0px;
+    color: rgba(0, 0, 0, 0.578);
+}
+
 header{
     background-color:rgb(0,122,194);
     height: 95px;
@@ -12,6 +25,8 @@ header{
     position:fixed;
     right: 0px;
     top: 0px;
+    left: 0px;
+    z-index: 1;
 }
 
 .logo{
@@ -87,4 +102,41 @@ a.link:hover,
 a.link {
   text-decoration: none;
   color: inherit;
+}
+
+.mainpage2{
+    font-size: 13pt;
+    background-color: rgba(255, 255, 255, 0.526);
+    border-radius: 30px;
+    height: 20px;
+    width: 270px;
+    text-align: center;
+}
+
+.mainpage3{
+    font-size: 13pt;
+    background-color: rgba(255, 255, 255, 0.526);
+    border-radius: 30px;
+    height: 20px;
+    width: 180px;
+    text-align: center;
+}
+
+.mainpage4{
+    font-size: 13pt;
+    background-color: rgba(255, 255, 255, 0.526);
+    border-radius: 30px;
+    height: 20px;
+    width: 60px;
+    text-align: center;
+}
+
+.zaglav{
+    color: black;
+    font-family: Yu Gothic UI Light;
+    font-weight: lighter;
+    position: relative;
+    margin-top: 145px;
+    margin-left: 175px;
+    font-size: 45pt;
 }
